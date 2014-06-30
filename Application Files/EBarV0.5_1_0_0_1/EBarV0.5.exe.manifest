@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EBarV0.5.exe" version="1.0.0.1" publicKeyToken="f0d9e54579fefaa7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EBarV0.5" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EBarV0.5.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EBarV0.5.exe" size="26624">
+      <assemblyIdentity name="EBarV0.5" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xezeUggQut/uH78hr+CGsXtnCjUbCMI56opL1NO1ZbU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EBarV0.5.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HK\hke" issuerKeyHash="8376e4bf90b06da701fc35a2cde334a43e59a2d5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NltVyeMqLEB/041wddqTDXHWq8Tt+LbtZckGVZfxHA4=</DigestValue></Reference></SignedInfo><SignatureValue>cDR+ZWB4UFFb76lSMdBA1hdeDGpELCYjDhadbO5cc8btU5gZY9sss7PTavgSKXb6YrE3htVbGKo8yOdWONKGkmXyHaIe588EJzHc2McnBeblyyzx2o+KgxSziXJXeg9bZpOOyMm0h5yxvGm9G8v8hSSAqn/MSWjAa3lELND2vYo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xXozMIY0RZ8S97AinxGjUd5jBLXYitQCFQwfO6kM3GiRxVPd1HIFDZlEv0QbrfjLF2nqSfKMTlPndGcSrl/xIV5mDofkjiF6SQ1OilQsgBHLhVQ06APUGqxz4j/ITNRj81GDYHvVNWw9iD7nHSPJ2bGoDCcnqgcwBPtXr65tQgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0e1cf1975506c965edb6f8edc4abd6710d93da75708dd37f402c2ae3c9555b36" Description="" Url=""><as:assemblyIdentity name="EBarV0.5.exe" version="1.0.0.1" publicKeyToken="f0d9e54579fefaa7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HK\hke</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c0y5RajSPMXIsbF+ilsk1F8yFVhxhtlr/gEOjt5nHPA=</DigestValue></Reference></SignedInfo><SignatureValue>b0D5iBvs0RPPE9VDK20INnFsmNYcwdkrobdEJMDnhT4LtJA2sGFSX5O4glRtP7olh3RJFQ3wvGYdAwaNcKXAATJeC6SRovt70ju16yGMAdcJA/bhjsuxgQe1hPRmt5OLlRwpMcJsWAYecT68/Sd6qoPytsrMPkl+JReXZm0NCMU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xXozMIY0RZ8S97AinxGjUd5jBLXYitQCFQwfO6kM3GiRxVPd1HIFDZlEv0QbrfjLF2nqSfKMTlPndGcSrl/xIV5mDofkjiF6SQ1OilQsgBHLhVQ06APUGqxz4j/ITNRj81GDYHvVNWw9iD7nHSPJ2bGoDCcnqgcwBPtXr65tQgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBsTCCARqgAwIBAgIQPa0l45R5lJJPWzdpPFhwMjANBgkqhkiG9w0BAQsFADAXMRUwEwYDVQQDHgwASABLAFwAaABrAGUwHhcNMTQwNTAzMTYyODE5WhcNMTUwNTAzMjIyODE5WjAXMRUwEwYDVQQDHgwASABLAFwAaABrAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMV6MzCGNEWfEvewIp8Ro1HeYwS12IrUAhUMHzupDNxokcVT3dRyBQ2ZRL9EG634yxdp6knyjE5T53RnEq5f8SFeZg6H5I4hekkNTopULIARy4VUNOgD1Bqsc+I/yEzUY/NRg2B71TVsPYg+5x0jydmxqAwnJ6oHMAT7V6+ubUIJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARWbjHa0BWJD+bLTKjW0mMUMKjJX54dVoJFvWtutxLy4kVJe5hL2XxXK04NXe9/Ib20obO6HMEOSIsCmjODtX8+8ggv58YGIxI8ecBjMZGlUBi4zFV4h4qbk3pjmjEpHyzz291Xhy+zRRswkf5qX3zO5fLbDK1TgAF6t7QqjtHb8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
